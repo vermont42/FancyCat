@@ -13,12 +13,12 @@ class URLProtocolStub: URLProtocol {
 
   // 2
   override class func canInit(with request: URLRequest) -> Bool {
-    return true
+    true
   }
 
   // 2
   override class func canonicalRequest(for request: URLRequest) -> URLRequest {
-    return request
+    request
   }
 
   // 2
